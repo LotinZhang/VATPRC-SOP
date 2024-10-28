@@ -136,24 +136,24 @@
 ### 3.4 机坪
 |登录名|呼号|频率|职责范围|
 |:---:|:---:|:---:|:---:|
-|ZBAA_A_GND|北京机坪/Beijing Apron|122.225|全机场机坪管制区域（不含9号机坪）|
-|ZBAA_A1_GND|北京机坪/Beijing Apron|122.225|APN01管制区域|
-|ZBAA_A2_GND|北京机坪/Beijing Apron|122.625|APN02管制区域 （不含9号机坪）|
-|ZBAA_A3_GND|北京机坪/Beijing Apron|122.675|APN03+04管制区域|
+|ZBAA_RMP|北京机坪/Beijing Apron|122.225|全机场机坪管制区域（不含9号机坪）|
+|ZBAA_1_RMP|北京机坪/Beijing Apron|122.225|APN01管制区域|
+|ZBAA_2_RMP|北京机坪/Beijing Apron|122.625|APN02管制区域 （不含9号机坪）|
+|ZBAA_3_RMP|北京机坪/Beijing Apron|122.675|APN03+04管制区域|
 
 席位开设规则： 
-1. ZBAA_GND在线且航空器数量足够时，可开设ZBAA_A1_GND、ZBAA_A3_GND。如选择开设ZBAA_A1_GND，则其管制范围为APN01+02管制区。也可选择开设ZBAA_A_GND 
-2. ZBAA_A_GND在线时，如出现机坪分扇上线，则ZBAA_A_GND需在商议好管制范围后将登录名更换为对应分扇的登录名 
-3. ZBAA_A1_GND在线时，经ZBAA_A1_GND同意，可开设ZBAA_A2_GND。ZBAA_A1_GND在线是ZBAA_A2_GND开设的必要条件
+1. 北京首都机场有塔台席位或地面席位在线时，可开设ZBAA_RMP 
+2. ZBAA_RMP在线时，可开设ZBAA_3_RMP进行分扇 
+3. ZBAA_1_RMP在线时，经ZBAA_1_RMP同意，可开设ZBAA_2_RMP。ZBAA_1_RMP在线是ZBAA_2_RMP开设的必要条件
 
 各机坪管制范围如下： 
-- ZBAA_A_GND（合扇）：全机场机坪管制区域 
-- ZBAA_A1_GND：APN01管制区域（蓝色） 
-- ZBAA_A2_GND：APN02管制区域（不含9号机坪）（青绿色） 
-- ZBAA_A3_GND：APN03+04管制区域（红色） 
-注意事项：橙色代管区域在北向运行时由ZBAA_A3_GND提供管制服务，南向运行时由ZBAA_2_TWR提供管制服务
+- ZBAA_RMP（合扇）：全机场机坪管制区域 
+- ZBAA_1_RMP：APN01管制区域（蓝色） 
+- ZBAA_2_RMP：APN02管制区域（不含9号机坪）（青绿色） 
+- ZBAA_3_RMP：APN03+04管制区域（红色） 
+注意事项：橙色代管区域在北向运行时由ZBAA_3_RMP提供管制服务，南向运行时由ZBAA_2_TWR提供管制服务
 
->需要!!!!图 3.2 机坪划分图（橙色部分为ZBAA_A3_GND代管区域）!!!!
+>需要!!!!图 3.2 机坪划分图（橙色部分为ZBAA_3_RMP代管区域）!!!!
 
 ## 4. 席位职责
 ### 4.1 塔台
@@ -208,21 +208,21 @@
 
 由跑道36R向东脱离或沿A9跑道36R穿越的航空器，脱离后立即移交ZBAA_GND
 
-由跑道36R向西脱离或沿A8穿越跑道36R的航空器，脱离后立即移交ZBAA_A3_GND
+由跑道36R向西脱离或沿A8穿越跑道36R的航空器，脱离后立即移交ZBAA_3_RMP
 
-由跑道18L向西脱离或沿A1穿越跑道18L的航空器，在Z3/M7前移交ZBAA_A3_GND
+由跑道18L向西脱离或沿A1穿越跑道18L的航空器，在Z3/M7前移交ZBAA_3_RMP
 
-由跑道18L向东脱离的航空器，如沿E0/E1/E2脱离后立即移交ZBAA_A1_GND，其他位置联系ZBAA_GND
+由跑道18L向东脱离的航空器，如沿E0/E1/E2脱离后立即移交ZBAA_1_RMP，其他位置联系ZBAA_GND
 
-沿A0向东穿越跑道18L的，沿T1在H前等，根据其目的地方向联系ZBAA_GND或ZBAA_A1_GND（如无明确方向，默认联系ZBAA_GND），或右转沿G在E2前等，联系ZBAA_A1_GND
+沿A0向东穿越跑道18L的，沿T1在H前等，根据其目的地方向联系ZBAA_GND或ZBAA_1_RMP（如无明确方向，默认联系ZBAA_GND），或右转沿G在E2前等，联系ZBAA_1_RMP
 
 由跑道01/19脱离的航空器，在给出滑行方向后移交ZBAA_GND（南向运行时沿Q3脱离后如需左转上K向南滑行，则在K前直接移交ZBAA_GND）
 
-进入W5机坪的航空器，在Z20前移交ZBAA_A3_GND
+进入W5机坪的航空器，在Z20前移交ZBAA_3_RMP
 
-进入W6机坪的航空器，在Z24前移交ZBAA_A3_GND
+进入W6机坪的航空器，在Z24前移交ZBAA_3_RMP
 
-在HP21、HP7或C1/C2/M前移交ZBAA_A3_GND
+在HP21、HP7或C1/C2/M前移交ZBAA_3_RMP
 
 ### 4.2 地面和机坪
 #### 4.2.1 地面席位
@@ -395,19 +395,19 @@ B. 进场滑行路线
 2.	南向时，ZBAA_GND在G E7前、H（北绕滑向南） H4前、K Q8前、J（M维修坪向南） H2前移交塔台。9号机坪的航空器在准备好滑行且无潜在冲突后原地移交塔台
 
 **(3)	与机坪的移交**
-1.	G H1前移交ZBAA_A3_GND
+1.	G H1前移交ZBAA_3_RMP
 
 2.	北向时：
 
-在T1 Y2前、T2 Y5前移交ZBAA_A1_GND
+在T1 Y2前、T2 Y5前移交ZBAA_1_RMP
 
-在T3/G4/G5 Y1前、T4/K4/K5 Y4前、J2 Y3前、J3 Y6前、H/H7 Y8前、J Y9/U2前移交 ZBAA_A2_GND
+在T3/G4/G5 Y1前、T4/K4/K5 Y4前、J2 Y3前、J3 Y6前、H/H7 Y8前、J Y9/U2前移交 ZBAA_2_RMP
 
 3.	南向时：
 
-在T1 Y2前、T2 Y5前、G G2前、K K2前移交ZBAA_A1_GND
+在T1 Y2前、T2 Y5前、G G2前、K K2前移交ZBAA_1_RMP
 
-在T3/G4/G5 Y1前、T4/K4/K5 Y4前、J2 Y3前、J3 Y6前、H/H7 Y8前、J Y9/U2前移交 ZBAA_A2_GND
+在T3/G4/G5 Y1前、T4/K4/K5 Y4前、J2 Y3前、J3 Y6前、H/H7 Y8前、J Y9/U2前移交 ZBAA_2_RMP
 
 #### 4.2.2 机坪席位
 **(1)	机位进出路线**
@@ -448,13 +448,13 @@ ZBAA_A1_GND：
 
 在T1 J前、T2 H前移交ZBAA_GND
 
-沿T2进入4号机坪的，T2 Y1前移交ZBAA_A2_GND
+沿T2进入4号机坪的，T2 Y1前移交ZBAA_2_RMP
 
-沿T1进入4号机坪的，T4 T2前移交ZBAA_A2_GND ZBAA_A2_GND：
+沿T1进入4号机坪的，T4 T2前移交ZBAA_2_RMP ZBAA_2_RMP：
 
 在T4/Y1/Y8 H前、T3/Y4/Y8 J前、Y3 J1前、Y6 J4前、J U2前移交ZBAA_GND
 
-北向时4号机坪沿Y1/Y4滑出的T2前移交ZBAA_A1_GND ZBAA_A3_GND：
+北向时4号机坪沿Y1/Y4滑出的T2前移交ZBAA_1_RMP ZBAA_3_RMP：
 
 北向时：
 
@@ -489,7 +489,7 @@ W211-W213机位的航空器准备好滑行后原地移交ZBAA_1_TWR  Route2（Y7
 机位：
 
 A388：
-21211、22112、403、413、507-509、701、702、931、932、938、939、951、955、M01、M02
+212、221、403、413、507-509、701、702、931、932、938、939、951、955、M01、M02
 
 AN124：
 212、221、403、413、507-509、701、702、931、932、938、939、951、955、  M01、M02、N205、N206
@@ -560,7 +560,9 @@ ZBAA_GND在G E7前、H（北绕滑向南） H4前、K Q8前、J（M维修坪向�
 
 此条内容仅为参考，不作为强制要求
 
-远机位均为国内、国际港澳台航班混合停放二号航站楼
+远机位均为国内、国际港澳台航班混合停放
+
+二号航站楼
 |类型|机位|
 |:---:|:---:|
 |仅供国内航班停放|220-240|
